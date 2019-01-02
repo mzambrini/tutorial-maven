@@ -111,7 +111,7 @@ E' possibile evitare la cancellazione del branch di cui si è fatta la merge
 ### Vantaggi e svantaggi di tale approccio
 Il vantaggio principale di tale approccio è quello di automatizzare le attività di branching in modo da mantenere consistenti le versioni del progetto; inoltre il disaccoppiamento dal plugin ufficiale di Maven per il rilascio evita la serie di problematiche descritte all'inizio.
 
-Lo svantaggio principale di questo approccio è quello di dover rinunciare (o almeno limitare) i meccanismo di merge request (GitLab) p pull request (GitHub).
+Lo svantaggio principale di questo approccio è quello di dover rinunciare (o almeno limitare) i meccanismo di merge request (GitLab) o pull request (GitHub).
 Di certo, per il solo caso del rilascio, è un problema di tipo filosofico, più che pratico.
 
 
