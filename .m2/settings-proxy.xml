@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings
+	xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.1.0 http://maven.apache.org/xsd/settings-1.1.0.xsd"
+	xmlns="http://maven.apache.org/SETTINGS/1.1.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<servers>
+		<server>
+			<id>release</id>
+			<username>admin</username>
+			<password>password</password>
+		</server>
+		<server>
+			<id>snapshots</id>
+			<username>admin</username>
+			<password>password</password>
+		</server>
+	</servers>
+	<proxies>
+    	<proxy>
+			<id>example-proxy</id>
+			<active>true</active>
+			<protocol>http</protocol>
+			<host>191.191.29.66</host>
+			<port>3128</port>
+			<nonProxyHosts>localhost|191.191.29.66</nonProxyHosts>
+    	</proxy>
+  	</proxies>
+</settings>
